@@ -1,15 +1,14 @@
 # Template for TDD Code Katas in C++
 
 Hey there. This is a cookiecutter template for a simple TDD code kata
-using Google Test/Google Mock.  It's intended to give you a repeatable
-way of very quickly getting started for a "deliberate practice"
-session with C++.
+using CppUTest.  It's intended to give you a repeatable way of very
+quickly getting started for a "deliberate practice" session with C++.
 
 ## Features of this template
 
 This generates a project for doing a test-driven code kata in C++.
 
-- Includes Google Test and Google Mock libraries
+- Includes CppUTest library
 - Generates a header, "production" source file and an empty test
 - Generates a CMake build which will work on most platforms
 - Has some convenience targets for generating etags and running unit
@@ -32,9 +31,8 @@ development toolchain, and you'll need to figure out how to get this
 configured for your platform, if you don't already have one.
 
 The minimum requirements for building this are really those from
-[Google Test/Google Mock](https://github.com/google/googletest), which
-supports C++98 or later (although we'd suggest that TDD in C++ is so
-much more fun with C++14 or later using a modern toolchain...).
+[CppUTest](http://cpputest.github.io/), which is highly portable
+across C++ versions and compilers.
 
 ## Generating your project
 
