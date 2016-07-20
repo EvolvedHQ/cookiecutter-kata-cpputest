@@ -46,7 +46,7 @@ $ cookiecutter <path-to-this-template>
 or directly from the GitHub URL where the template lives:
 
 ```
-$ cookiecutter https://github.com/13coders/cookiecutter-kata-gtest
+$ cookiecutter https://github.com/13coders/cookiecutter-kata-cpputest
 ```
 
 This template is intended to be very simple, so cookiecutter will
